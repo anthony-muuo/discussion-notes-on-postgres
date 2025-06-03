@@ -1,0 +1,36 @@
+roles own database objects,, eg tables, functions etc
+
+roles: are like user accs or group that control who can do what in the database
+
+role: can be a person, a group of people like developer , an application like a website connecting to a db
+
+
+why roles matter:
+1. central to authentication and authorization
+2. enable fine grained acess control
+3. allow scalability security management by separating privileges from individuals
+
+
+have cluster- level privileges (attributes)
+
+granted privileges to database object
+
+can possibly grand privileges to other roles
+
+user roles are users that are allowed to login
+group roles are not allowed to login 
+
+postgresql attributes
+
+LOGIN- allows role to connect to Db
+SUPERUSER- full acess to everything
+CREATEROLE - can alter/create other roles
+CREATEDB - can create new database
+REPLICATION LOGIN - can manage streaming an replication
+INHERIT - inherits priviledges from roles 
+
+ROLES MANAGEMENT LIFECYCLE
+1. create ,, 
+2. modify
+3. grant membership
+4. drop
