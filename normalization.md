@@ -18,7 +18,7 @@
 - Reduce the delay when new types of data need to be introduced.
 - Facilitate the access and view of data to users and product tools.
 
-## Why Normalization?
+## Why Normalization ?
 
 - Normalization breaks down a large table into smaller, more manageable tables that are related through common attributes.
 - Reduces redundancy by storing each piece of data in only one place and ensures consistency by eliminating data anoalies.
